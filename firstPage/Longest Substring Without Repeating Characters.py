@@ -10,7 +10,6 @@ class Solution:
             usedChar[s[i]]=i
         return maxLength
 
-
 s=Solution()
 num=s.lengthOfLongestSubstring("pwwkew")
 print(num)
