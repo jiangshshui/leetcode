@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="be27b838-60fa-43b8-84c5-67b3a07d47c6" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/firstPage/Longest Palindromic Substring.py" afterPath="$PROJECT_DIR$/firstPage/Longest Palindromic Substring.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -14,6 +13,7 @@
   </component>
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/leetcode$ValidParentheses_20.coverage" NAME="ValidParentheses_20 Coverage Results" MODIFIED="1507181465871" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/firstPage" />
+    <SUITE FILE_PATH="coverage/leetcode$JudgeRouteCircle_657.coverage" NAME="JudgeRouteCircle_657 Coverage Results" MODIFIED="1507262747359" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/thirteenthPage" />
     <SUITE FILE_PATH="coverage/leetcode$Reverse_Integer.coverage" NAME="Reverse Integer Coverage Results" MODIFIED="1502291610148" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/firstPage" />
     <SUITE FILE_PATH="coverage/leetcode$Unittests_for_mlp_test_mlp.coverage" NAME="Unittests for mlp.test_mlp Coverage Results" MODIFIED="1502113551007" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/firstPage" />
     <SUITE FILE_PATH="coverage/leetcode$CountandSay_38.coverage" NAME="CountandSay_38 Coverage Results" MODIFIED="1507094875793" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/firstPage" />
@@ -35,61 +35,11 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="3SumClosest_16.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/firstPage/3SumClosest_16.py">
+      <file leaf-file-name="JudgeRouteCircle_657.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/thirteenthPage/JudgeRouteCircle_657.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="132">
-              <caret line="20" column="8" lean-forward="false" selection-start-line="20" selection-start-column="8" selection-end-line="20" selection-end-column="8" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="HammingDistance_461.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/tenthPage/HammingDistance_461.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="40">
-              <caret line="43" column="3" lean-forward="true" selection-start-line="43" selection-start-column="3" selection-end-line="43" selection-end-column="3" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="builtins.py" pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/.PyCharm2017.1/system/python_stubs/-756103818/builtins.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="169">
-              <caret line="50" column="4" lean-forward="false" selection-start-line="50" selection-start-column="4" selection-end-line="50" selection-end-column="4" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="pydevd.py" pinned="false" current-in-tab="false">
-        <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/pydevd.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="142">
-              <caret line="1017" column="0" lean-forward="false" selection-start-line="1017" selection-start-column="0" selection-end-line="1017" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="codecs.py" pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36/Lib/codecs.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="142">
-              <caret line="331" column="0" lean-forward="false" selection-start-line="331" selection-start-column="0" selection-end-line="331" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="temp.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/temp.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="274">
-              <caret line="16" column="0" lean-forward="true" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+            <state relative-caret-position="158">
+              <caret line="22" column="27" lean-forward="false" selection-start-line="22" selection-start-column="27" selection-end-line="22" selection-end-column="27" />
               <folding />
             </state>
           </provider>
@@ -139,6 +89,7 @@
         <option value="$PROJECT_DIR$/firstPage/3SumClosest_16.py" />
         <option value="$PROJECT_DIR$/temp.py" />
         <option value="$PROJECT_DIR$/tenthPage/HammingDistance_461.py" />
+        <option value="$PROJECT_DIR$/thirteenthPage/JudgeRouteCircle_657.py" />
       </list>
     </option>
   </component>
@@ -204,7 +155,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="tenthPage" />
+              <option name="myItemId" value="thirteenthPage" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -235,7 +186,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.HammingDistance_461">
+  <component name="RunManager" selected="Python.JudgeRouteCircle_657">
     <configuration default="false" name="temp" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -250,25 +201,6 @@
       <module name="leetcode" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/temp.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <method />
-    </configuration>
-    <configuration default="false" name="MergeTwoSortedLists_21" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/firstPage" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="leetcode" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/firstPage/MergeTwoSortedLists_21.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -326,6 +258,25 @@
       <module name="leetcode" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/tenthPage/HammingDistance_461.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="JudgeRouteCircle_657" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/thirteenthPage" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="leetcode" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/thirteenthPage/JudgeRouteCircle_657.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -481,18 +432,18 @@
     </configuration>
     <list size="5">
       <item index="0" class="java.lang.String" itemvalue="Python.temp" />
-      <item index="1" class="java.lang.String" itemvalue="Python.MergeTwoSortedLists_21" />
-      <item index="2" class="java.lang.String" itemvalue="Python.GenerateParentheses_22" />
-      <item index="3" class="java.lang.String" itemvalue="Python.3SumClosest_16" />
-      <item index="4" class="java.lang.String" itemvalue="Python.HammingDistance_461" />
+      <item index="1" class="java.lang.String" itemvalue="Python.GenerateParentheses_22" />
+      <item index="2" class="java.lang.String" itemvalue="Python.3SumClosest_16" />
+      <item index="3" class="java.lang.String" itemvalue="Python.HammingDistance_461" />
+      <item index="4" class="java.lang.String" itemvalue="Python.JudgeRouteCircle_657" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.HammingDistance_461" />
-        <item index="1" class="java.lang.String" itemvalue="Python.temp" />
-        <item index="2" class="java.lang.String" itemvalue="Python.3SumClosest_16" />
-        <item index="3" class="java.lang.String" itemvalue="Python.GenerateParentheses_22" />
-        <item index="4" class="java.lang.String" itemvalue="Python.MergeTwoSortedLists_21" />
+        <item index="0" class="java.lang.String" itemvalue="Python.JudgeRouteCircle_657" />
+        <item index="1" class="java.lang.String" itemvalue="Python.HammingDistance_461" />
+        <item index="2" class="java.lang.String" itemvalue="Python.temp" />
+        <item index="3" class="java.lang.String" itemvalue="Python.3SumClosest_16" />
+        <item index="4" class="java.lang.String" itemvalue="Python.GenerateParentheses_22" />
       </list>
     </recent_temporary>
   </component>
@@ -519,8 +470,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15167095" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15167095" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -611,20 +563,17 @@
           <line>4</line>
           <option name="timeStamp" value="26" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/thirteenthPage/JudgeRouteCircle_657.py</url>
+          <line>23</line>
+          <option name="timeStamp" value="28" />
+        </line-breakpoint>
       </breakpoints>
-      <option name="time" value="27" />
+      <option name="time" value="29" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/firstPage/Longest Palindromic Substring.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="988">
-          <caret line="38" column="18" lean-forward="false" selection-start-line="38" selection-start-column="18" selection-end-line="38" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/firstPage/Longest Substring Without Repeating Characters.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="364">
@@ -955,8 +904,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/tenthPage/HammingDistance_461.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="40">
-          <caret line="43" column="3" lean-forward="true" selection-start-line="43" selection-start-column="3" selection-end-line="43" selection-end-column="3" />
+        <state relative-caret-position="92">
+          <caret line="45" column="23" lean-forward="true" selection-start-line="45" selection-start-column="23" selection-end-line="45" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/thirteenthPage/JudgeRouteCircle_657.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="158">
+          <caret line="22" column="27" lean-forward="false" selection-start-line="22" selection-start-column="27" selection-end-line="22" selection-end-column="27" />
           <folding />
         </state>
       </provider>
