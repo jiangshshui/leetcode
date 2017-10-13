@@ -26,24 +26,45 @@
 
 
 
+# class Solution(object):
+#     def longestPalindrome(self,s):
+#         length=len(s)
+#         dp=[[0 for i in range(length)] for i in range(length)]
+#         left=0
+#         right=0
+#         for i in range(length):
+#             for j in range(0,i):
+#                 dp[j][i]=();
+#
+#         #print(dp)
+#         return ""
 class Solution(object):
-    def longestPalindrome(self,s):
-        length=len(s)
-        dp=[[0 for i in range(length)] for i in range(length)]
-        left=0
-        right=0
-        for i in range(length):
-            for j in range(0,i):
-                dp[j][i]=();
-
-        #print(dp)
-
-
-        return ""
-
-
+    def longestPalindrome(self, s):
+        """
+        :type s: str
+        :rtype: str
+        """
+        dp=[[False for i in range(len(s))] for j in range(len(s))]
+        for i in range(len(s)):
+            for j in range(len(s)):
+                if i==j:
+                    dp[i][j]=True
+        max=1
+        res=""
+        for i in range(len(s)-1,-1,-1):
+            for j in range(i,len(s)):
+                # if dp[i][j]:
+                #     continue
+                if (j-i<=2 or dp[i+1][j-1]) and s[i]==s[j]:
+                    dp[i][j]=True
+                    if j-i+1>=max:
+                        res=s[i:j+1]
+                        max=j-i+1
+        return res
 s=Solution()
-b=s.longestPalindrome("aba")
+b=s.longestPalindrome("abc")
 print(b)
 
+
+#http://www.cnblogs.com/yuzhangcmu/p/4189068.html
 
