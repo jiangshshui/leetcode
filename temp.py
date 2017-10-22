@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 # def test():
 #     return [s+t for s in "ab" for t in "cd"]
 #
