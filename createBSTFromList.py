@@ -34,6 +34,31 @@ def insertTree(root,num):
     return root
 
 
+class SwapTwoTreeNode():
+    def __init__(self,first,second):
+        self.first=first
+        self.second=second
+        self.firstNode=None
+        self.secondNode=None
+    def swap(self,root):
+        # firstNode=None
+        # secondNode=None
+        def traverse(root, i):
+            if not root:
+                return i
+            i=traverse(root.left, i)
+            i += 1
+            if i ==self.first:
+                self.firstNode=root
+            if i==self.second:
+                self.secondNode=root
+            i=traverse(root.right,i)
+            return i
+        traverse(root,0)
+        print(self.firstNode,self.secondNode)
+        self.firstNode.val,self.secondNode.val=self.secondNode.val,self.firstNode.val
+        return root
+
 # def traverse(root,res):
 #     if not root:
 #         return
