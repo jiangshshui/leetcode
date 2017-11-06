@@ -27,7 +27,7 @@ def createBSTFromList(nums):
 def insertTree(root,num):
     if not root:
         root=TreeNode(num)
-    elif num<root.val:
+    elif num<=root.val:
         root.left=insertTree(root.left,num)
     else:
         root.right=insertTree(root.right,num)
@@ -41,8 +41,6 @@ class SwapTwoTreeNode():
         self.firstNode=None
         self.secondNode=None
     def swap(self,root):
-        # firstNode=None
-        # secondNode=None
         def traverse(root, i):
             if not root:
                 return i
@@ -55,7 +53,7 @@ class SwapTwoTreeNode():
             i=traverse(root.right,i)
             return i
         traverse(root,0)
-        print(self.firstNode,self.secondNode)
+        #print(self.firstNode,self.secondNode)
         self.firstNode.val,self.secondNode.val=self.secondNode.val,self.firstNode.val
         return root
 
