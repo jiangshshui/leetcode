@@ -34,6 +34,9 @@ class Solution:
         #key = cmp_to_key(lambda x, y: int(y + x) - int(x + y))
         #key = cmp_to_key(lambda x, y: int(y + x)-int(x + y))
         key = cmp_to_key(lambda x, y: int(x + y) - int(y + x))
+        '''
+        有表达式的正负决定相对位置  为正 相对位置不变  为负 相对位置改变
+        '''
         nums=sorted(map(str, nums), key=key,reverse=True)
         res = ''.join(nums).lstrip('0')
         return res or '0'
