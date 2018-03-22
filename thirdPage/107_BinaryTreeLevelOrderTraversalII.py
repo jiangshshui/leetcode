@@ -98,11 +98,6 @@ def main():
             root = stringToTreeNode(line);
             ret = Solution().levelOrderBottom(root)
             print(ret)
-            #out = treeNodeToString(root)
-            # if ret is not None:
-            #     print("Do not return anything, modify root in-place instead.")
-            # else:
-            #print(out)
         except StopIteration:
             break
 
