@@ -24,11 +24,3 @@ class Solution:
             if pre:
                 pre.next=None
         return ans
-
-
-
-
-
-
-# s=Solution()
-# print(s.splitListToParts())
